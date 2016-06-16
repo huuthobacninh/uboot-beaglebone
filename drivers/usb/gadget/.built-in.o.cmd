@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/built-in.o :=  /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-ld.bfd     -r -o drivers/usb/gadget/built-in.o drivers/usb/gadget/epautoconf.o drivers/usb/gadget/config.o drivers/usb/gadget/usbstring.o drivers/usb/gadget/g_dnl.o drivers/usb/gadget/f_dfu.o drivers/usb/gadget/f_fastboot.o drivers/usb/gadget/ether.o drivers/usb/gadget/rndis.o 

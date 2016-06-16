@@ -1,0 +1,4 @@
+gpt.c:95:14:extract_val	24	static
+gpt.c:36:12:extract_env	16	static
+gpt.c:171:12:2	88	static
+gpt.c:406:12:do_gpt	64	dynamic

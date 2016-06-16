@@ -1,0 +1,1 @@
+cmd_spl/drivers/power/pmic/built-in.o :=  /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-ld.bfd     -r -o spl/drivers/power/pmic/built-in.o spl/drivers/power/pmic/pmic_tps65217.o spl/drivers/power/pmic/pmic_tps65910.o 
