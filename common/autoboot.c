@@ -208,7 +208,9 @@ static int abortboot_keyed(int bootdelay)
 	if (abort)
 		gd->flags &= ~GD_FLG_SILENT;
 #endif
-
+	
+	printf("ThoNH------------ key press = %d: 0-no, 1-yes  \n", abort);
+	abort = 1;
 	return abort;
 }
 
@@ -362,7 +364,7 @@ void autoboot_command(const char *s)
 #if defined(CONFIG_AUTOBOOT_KEYED) && !defined(CONFIG_AUTOBOOT_KEYED_CTRLC)
 		int prev = disable_ctrlc(1);	/* disable Control C checking */
 #endif
-
+		printf("ThoNH------------key pressed  \n");
 		run_command_list(s, -1, 0);
 
 #if defined(CONFIG_AUTOBOOT_KEYED) && !defined(CONFIG_AUTOBOOT_KEYED_CTRLC)

@@ -68,7 +68,7 @@
 	"bootscript=echo Running bootscript from mmc${mmcdev} ...; " \
 		"source ${loadaddr}\0" \
 	"bootenvfile=uEnv.txt\0" \
-	"importbootenv=echo ThoNH 11111------------- Importing environment from mmc${mmcdev} ...; " \
+	"importbootenv=echo Importing environment from mmc${mmcdev} ...; " \
 		"env import -t ${loadaddr} ${filesize}\0" \
 	"loadbootenv=fatload mmc ${mmcdev} ${loadaddr} ${bootenvfile}\0" \
 	"envboot=mmc dev ${mmcdev}; " \

@@ -119,7 +119,7 @@
 	"usbtty=cdc_acm\0" \
 	"bootfile=uImage\0" \
 	"ramdisk=ramdisk.gz\0" \
-	"bootdir=/boot\0" \
+	"bootdir=/boot-------ThoNH2\0" \
 	"bootpart=0:2\0" \
 	"console=ttyO2,115200n8\0" \
 	"mpurate=auto\0" \
