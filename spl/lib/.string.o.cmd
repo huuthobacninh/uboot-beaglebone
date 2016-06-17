@@ -1,4 +1,4 @@
-cmd_spl/lib/string.o := /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,spl/lib/.string.o.d  -nostdinc -isystem /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -DCONFIG_SPL_BUILD -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -ffunction-sections -fdata-sections -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(string)"  -D"KBUILD_MODNAME=KBUILD_STR(string)" -c -o spl/lib/string.o lib/string.c
+cmd_spl/lib/string.o := /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,spl/lib/.string.o.d  -nostdinc -isystem /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -DCONFIG_SPL_BUILD -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -ffunction-sections -fdata-sections -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(string)"  -D"KBUILD_MODNAME=KBUILD_STR(string)" -c -o spl/lib/string.o lib/string.c
 
 source_spl/lib/string.o := lib/string.c
 
@@ -13,7 +13,7 @@ deps_spl/lib/string.o := \
     $(wildcard include/config/arm64.h) \
     $(wildcard include/config/phys/64bit.h) \
     $(wildcard include/config/dma/addr/t/64bit.h) \
-  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
+  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
   include/linux/string.h \
   arch/arm/include/asm/string.h \
     $(wildcard include/config/use/arch/memcpy.h) \

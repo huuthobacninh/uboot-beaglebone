@@ -1,11 +1,11 @@
-cmd_lib/vsprintf.o := /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,lib/.vsprintf.o.d  -nostdinc -isystem /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(vsprintf)"  -D"KBUILD_MODNAME=KBUILD_STR(vsprintf)" -c -o lib/vsprintf.o lib/vsprintf.c
+cmd_lib/vsprintf.o := /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,lib/.vsprintf.o.d  -nostdinc -isystem /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(vsprintf)"  -D"KBUILD_MODNAME=KBUILD_STR(vsprintf)" -c -o lib/vsprintf.o lib/vsprintf.c
 
 source_lib/vsprintf.o := lib/vsprintf.c
 
 deps_lib/vsprintf.o := \
     $(wildcard include/config/cmd/net.h) \
     $(wildcard include/config/sys/pbsize.h) \
-  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdarg.h \
+  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdarg.h \
   include/linux/types.h \
     $(wildcard include/config/uid16.h) \
     $(wildcard include/config/use/stdint.h) \
@@ -16,7 +16,7 @@ deps_lib/vsprintf.o := \
     $(wildcard include/config/arm64.h) \
     $(wildcard include/config/phys/64bit.h) \
     $(wildcard include/config/dma/addr/t/64bit.h) \
-  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
+  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
   include/linux/string.h \
   arch/arm/include/asm/string.h \
     $(wildcard include/config/use/arch/memcpy.h) \
@@ -500,7 +500,7 @@ deps_lib/vsprintf.o := \
     $(wildcard include/config/sys/boot/get/kbd.h) \
     $(wildcard include/config/fit/best/match.h) \
   include/compiler.h \
-  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stddef.h \
+  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stddef.h \
   arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/byteorder/swab.h \
