@@ -1,4 +1,4 @@
-cmd_spl/disk/part_efi.o := /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,spl/disk/.part_efi.o.d  -nostdinc -isystem /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -DCONFIG_SPL_BUILD -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -ffunction-sections -fdata-sections -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(part_efi)"  -D"KBUILD_MODNAME=KBUILD_STR(part_efi)" -c -o spl/disk/part_efi.o disk/part_efi.c
+cmd_spl/disk/part_efi.o := /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,spl/disk/.part_efi.o.d  -nostdinc -isystem /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -DCONFIG_SPL_BUILD -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -ffunction-sections -fdata-sections -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(part_efi)"  -D"KBUILD_MODNAME=KBUILD_STR(part_efi)" -c -o spl/disk/part_efi.o disk/part_efi.c
 
 source_spl/disk/part_efi.o := disk/part_efi.c
 
@@ -19,7 +19,7 @@ deps_spl/disk/part_efi.o := \
     $(wildcard include/config/arm64.h) \
     $(wildcard include/config/phys/64bit.h) \
     $(wildcard include/config/dma/addr/t/64bit.h) \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
   include/linux/unaligned/be_byteshift.h \
   include/linux/unaligned/generic.h \
   include/common.h \
@@ -457,7 +457,7 @@ deps_spl/disk/part_efi.o := \
   arch/arm/include/asm/ptrace.h \
   arch/arm/include/asm/proc-armv/ptrace.h \
     $(wildcard include/config/arm/thumb.h) \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdarg.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdarg.h \
   include/linux/kernel.h \
   include/part.h \
     $(wildcard include/config/sys/mmcsd/raw/mode/u/boot/partition.h) \
@@ -504,7 +504,7 @@ deps_spl/disk/part_efi.o := \
     $(wildcard include/config/fit/best/match.h) \
     $(wildcard include/config/fit.h) \
   include/compiler.h \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stddef.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stddef.h \
   arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/byteorder/swab.h \

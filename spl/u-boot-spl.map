@@ -1,14 +1,14 @@
 Archive member included because of file (symbol)
 
-/home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
+/media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
                               arch/arm/cpu/armv7/built-in.o (__aeabi_uidiv)
-/home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
+/media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
                               fs/built-in.o (__aeabi_idiv)
-/home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
-                              /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
-/home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
+/media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
+                              /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
                               fs/built-in.o (__aeabi_llsr)
-/home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
+/media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
                               drivers/built-in.o (__aeabi_llsl)
 
 Discarded input sections
@@ -1100,21 +1100,21 @@ Discarded input sections
                 0x0000000000000000       0x40 arch/arm/lib/eabi_compat.o
  .debug_ranges  0x0000000000000000       0x30 arch/arm/lib/eabi_compat.o
  .debug_line    0x0000000000000000      0x113 arch/arm/lib/eabi_compat.o
- .debug_str     0x0000000000000000      0x461 arch/arm/lib/eabi_compat.o
+ .debug_str     0x0000000000000000      0x46f arch/arm/lib/eabi_compat.o
  .comment       0x0000000000000000       0x10 arch/arm/lib/eabi_compat.o
  .ARM.attributes
                 0x0000000000000000       0x2d arch/arm/lib/eabi_compat.o
  .debug_frame   0x0000000000000000       0x60 arch/arm/lib/eabi_compat.o
- .data          0x0000000000000000        0x0 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
- .bss           0x0000000000000000        0x0 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
- .data          0x0000000000000000        0x0 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
- .bss           0x0000000000000000        0x0 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
- .data          0x0000000000000000        0x0 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
- .bss           0x0000000000000000        0x0 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
- .data          0x0000000000000000        0x0 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
- .bss           0x0000000000000000        0x0 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
- .data          0x0000000000000000        0x0 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
- .bss           0x0000000000000000        0x0 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
+ .data          0x0000000000000000        0x0 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
+ .data          0x0000000000000000        0x0 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
+ .bss           0x0000000000000000        0x0 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
+ .data          0x0000000000000000        0x0 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
+ .bss           0x0000000000000000        0x0 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
 
 Memory Configuration
 
@@ -2159,21 +2159,21 @@ Linker script and memory map
                 0x00000000402fca38       0x20 lib/built-in.o
  .text.panic    0x00000000402fca58       0x14 lib/built-in.o
                 0x00000000402fca58                panic
- .text          0x00000000402fca6c       0xac /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
+ .text          0x00000000402fca6c       0xac /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
                 0x00000000402fca6c                __udivsi3
                 0x00000000402fca6c                __aeabi_uidiv
                 0x00000000402fcafc                __aeabi_uidivmod
- .text          0x00000000402fcb18       0xe0 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
+ .text          0x00000000402fcb18       0xe0 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
                 0x00000000402fcb18                __aeabi_idiv
                 0x00000000402fcb18                __divsi3
                 0x00000000402fcbdc                __aeabi_idivmod
- .text          0x00000000402fcbf8        0x4 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
+ .text          0x00000000402fcbf8        0x4 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
                 0x00000000402fcbf8                __aeabi_ldiv0
                 0x00000000402fcbf8                __aeabi_idiv0
- .text          0x00000000402fcbfc       0x18 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
+ .text          0x00000000402fcbfc       0x18 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
                 0x00000000402fcbfc                __aeabi_llsr
                 0x00000000402fcbfc                __lshrdi3
- .text          0x00000000402fcc14       0x18 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
+ .text          0x00000000402fcc14       0x18 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
                 0x00000000402fcc14                __ashldi3
                 0x00000000402fcc14                __aeabi_llsl
 
@@ -2699,7 +2699,7 @@ LOAD fs/built-in.o
 LOAD lib/built-in.o
 END GROUP
 LOAD arch/arm/lib/eabi_compat.o
-LOAD /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a
+LOAD /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a
 OUTPUT(u-boot-spl elf32-littlearm)
 
 .ARM.attributes
@@ -2731,15 +2731,15 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .ARM.attributes
                 0x000000000000020c       0x2d lib/built-in.o
  .ARM.attributes
-                0x0000000000000239       0x1b /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
+                0x0000000000000239       0x1b /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x0000000000000254       0x1b /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
+                0x0000000000000254       0x1b /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
  .ARM.attributes
-                0x000000000000026f       0x1b /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
+                0x000000000000026f       0x1b /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000000000000028a       0x1b /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
+                0x000000000000028a       0x1b /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
  .ARM.attributes
-                0x00000000000002a5       0x1b /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
+                0x00000000000002a5       0x1b /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
 
 .comment        0x0000000000000000        0xf
  .comment       0x0000000000000000        0xf arch/arm/cpu/armv7/built-in.o
@@ -2756,7 +2756,7 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .comment       0x0000000000000000       0x70 fs/built-in.o
  .comment       0x0000000000000000      0x120 lib/built-in.o
 
-.debug_line     0x0000000000000000    0x115fc
+.debug_line     0x0000000000000000    0x11626
  .debug_line    0x0000000000000000       0x87 arch/arm/cpu/armv7/start.o
  .debug_line    0x0000000000000087     0x1b13 arch/arm/cpu/armv7/built-in.o
  .debug_line    0x0000000000001b9a      0x9f7 arch/arm/lib/built-in.o
@@ -2764,37 +2764,37 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .debug_line    0x0000000000002b5d      0x293 board/ti/common/built-in.o
  .debug_line    0x0000000000002df0      0x809 common/spl/built-in.o
  .debug_line    0x00000000000035f9      0x11e common/init/built-in.o
- .debug_line    0x0000000000003717     0x2ec4 common/built-in.o
- .debug_line    0x00000000000065db      0x452 cmd/built-in.o
- .debug_line    0x0000000000006a2d     0x1133 disk/built-in.o
- .debug_line    0x0000000000007b60     0x4aed drivers/built-in.o
- .debug_line    0x000000000000c64d     0x2917 fs/built-in.o
- .debug_line    0x000000000000ef64     0x23ca lib/built-in.o
- .debug_line    0x000000000001132e       0xa1 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
- .debug_line    0x00000000000113cf       0xb2 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
- .debug_line    0x0000000000011481       0x77 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
- .debug_line    0x00000000000114f8       0x82 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
- .debug_line    0x000000000001157a       0x82 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
+ .debug_line    0x0000000000003717     0x2ed2 common/built-in.o
+ .debug_line    0x00000000000065e9      0x452 cmd/built-in.o
+ .debug_line    0x0000000000006a3b     0x1133 disk/built-in.o
+ .debug_line    0x0000000000007b6e     0x4aed drivers/built-in.o
+ .debug_line    0x000000000000c65b     0x2917 fs/built-in.o
+ .debug_line    0x000000000000ef72     0x23e6 lib/built-in.o
+ .debug_line    0x0000000000011358       0xa1 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
+ .debug_line    0x00000000000113f9       0xb2 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
+ .debug_line    0x00000000000114ab       0x77 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000011522       0x82 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
+ .debug_line    0x00000000000115a4       0x82 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
 
-.debug_info     0x0000000000000000    0x6edc4
- .debug_info    0x0000000000000000       0x7d arch/arm/cpu/armv7/start.o
- .debug_info    0x000000000000007d     0xbda4 arch/arm/cpu/armv7/built-in.o
- .debug_info    0x000000000000be21     0x31ec arch/arm/lib/built-in.o
- .debug_info    0x000000000000f00d     0x2be0 board/ti/am335x/built-in.o
- .debug_info    0x0000000000011bed      0xf01 board/ti/common/built-in.o
- .debug_info    0x0000000000012aee     0x4a82 common/spl/built-in.o
- .debug_info    0x0000000000017570      0x6aa common/init/built-in.o
- .debug_info    0x0000000000017c1a    0x10c62 common/built-in.o
- .debug_info    0x000000000002887c     0x1ef7 cmd/built-in.o
- .debug_info    0x000000000002a773     0x67e3 disk/built-in.o
- .debug_info    0x0000000000030f56    0x2394a drivers/built-in.o
- .debug_info    0x00000000000548a0    0x10931 fs/built-in.o
- .debug_info    0x00000000000651d1     0x988d lib/built-in.o
- .debug_info    0x000000000006ea5e       0xae /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
- .debug_info    0x000000000006eb0c       0xae /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
- .debug_info    0x000000000006ebba       0xae /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
- .debug_info    0x000000000006ec68       0xae /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
- .debug_info    0x000000000006ed16       0xae /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
+.debug_info     0x0000000000000000    0x6ee18
+ .debug_info    0x0000000000000000       0x8b arch/arm/cpu/armv7/start.o
+ .debug_info    0x000000000000008b     0xbdce arch/arm/cpu/armv7/built-in.o
+ .debug_info    0x000000000000be59     0x3208 arch/arm/lib/built-in.o
+ .debug_info    0x000000000000f061     0x2be0 board/ti/am335x/built-in.o
+ .debug_info    0x0000000000011c41      0xf01 board/ti/common/built-in.o
+ .debug_info    0x0000000000012b42     0x4a82 common/spl/built-in.o
+ .debug_info    0x00000000000175c4      0x6aa common/init/built-in.o
+ .debug_info    0x0000000000017c6e    0x10c62 common/built-in.o
+ .debug_info    0x00000000000288d0     0x1ef7 cmd/built-in.o
+ .debug_info    0x000000000002a7c7     0x67e3 disk/built-in.o
+ .debug_info    0x0000000000030faa    0x2394a drivers/built-in.o
+ .debug_info    0x00000000000548f4    0x10931 fs/built-in.o
+ .debug_info    0x0000000000065225     0x988d lib/built-in.o
+ .debug_info    0x000000000006eab2       0xae /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
+ .debug_info    0x000000000006eb60       0xae /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
+ .debug_info    0x000000000006ec0e       0xae /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000000000006ecbc       0xae /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
+ .debug_info    0x000000000006ed6a       0xae /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
 
 .debug_abbrev   0x0000000000000000    0x11e9c
  .debug_abbrev  0x0000000000000000       0x14 arch/arm/cpu/armv7/start.o
@@ -2810,11 +2810,11 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .debug_abbrev  0x0000000000009af3     0x4252 drivers/built-in.o
  .debug_abbrev  0x000000000000dd45     0x1b4b fs/built-in.o
  .debug_abbrev  0x000000000000f890     0x25a8 lib/built-in.o
- .debug_abbrev  0x0000000000011e38       0x14 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
- .debug_abbrev  0x0000000000011e4c       0x14 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
- .debug_abbrev  0x0000000000011e60       0x14 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
- .debug_abbrev  0x0000000000011e74       0x14 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
- .debug_abbrev  0x0000000000011e88       0x14 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x0000000000011e38       0x14 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000000000011e4c       0x14 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x0000000000011e60       0x14 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000000000011e74       0x14 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x0000000000011e88       0x14 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
 
 .debug_aranges  0x0000000000000000     0x2440
  .debug_aranges
@@ -2844,15 +2844,15 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .debug_aranges
                 0x0000000000001e10      0x590 lib/built-in.o
  .debug_aranges
-                0x00000000000023a0       0x20 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
+                0x00000000000023a0       0x20 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
  .debug_aranges
-                0x00000000000023c0       0x20 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
+                0x00000000000023c0       0x20 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
  .debug_aranges
-                0x00000000000023e0       0x20 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
+                0x00000000000023e0       0x20 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_dvmd_tls.o)
  .debug_aranges
-                0x0000000000002400       0x20 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
+                0x0000000000002400       0x20 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_lshrdi3.o)
  .debug_aranges
-                0x0000000000002420       0x20 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
+                0x0000000000002420       0x20 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_ashldi3.o)
 
 .debug_frame    0x0000000000000000     0x5994
  .debug_frame   0x0000000000000000      0x83c arch/arm/cpu/armv7/built-in.o
@@ -2867,34 +2867,34 @@ OUTPUT(u-boot-spl elf32-littlearm)
  .debug_frame   0x0000000000002794     0x1704 drivers/built-in.o
  .debug_frame   0x0000000000003e98      0xbc4 fs/built-in.o
  .debug_frame   0x0000000000004a5c      0xef8 lib/built-in.o
- .debug_frame   0x0000000000005954       0x20 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
- .debug_frame   0x0000000000005974       0x20 /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000005954       0x20 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000005974       0x20 /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2/libgcc.a(_divsi3.o)
 
-.debug_str      0x0000000000000000     0xd747
- .debug_str     0x0000000000000000     0x367b arch/arm/cpu/armv7/built-in.o
-                                       0x9243 (size before relaxing)
- .debug_str     0x000000000000367b      0x3b2 arch/arm/lib/built-in.o
-                                       0x25ce (size before relaxing)
- .debug_str     0x0000000000003a2d      0xdf1 board/ti/am335x/built-in.o
-                                       0x1ed1 (size before relaxing)
- .debug_str     0x000000000000481e      0x1a7 board/ti/common/built-in.o
-                                        0x681 (size before relaxing)
- .debug_str     0x00000000000049c5      0x7b1 common/spl/built-in.o
-                                       0x3345 (size before relaxing)
- .debug_str     0x0000000000005176       0x55 common/init/built-in.o
-                                        0x610 (size before relaxing)
- .debug_str     0x00000000000051cb     0x2638 common/built-in.o
-                                       0x948f (size before relaxing)
- .debug_str     0x0000000000007803      0x15f cmd/built-in.o
-                                       0x1940 (size before relaxing)
- .debug_str     0x0000000000007962      0xb70 disk/built-in.o
-                                       0x2917 (size before relaxing)
- .debug_str     0x00000000000084d2     0x2f0e drivers/built-in.o
-                                      0x104a4 (size before relaxing)
- .debug_str     0x000000000000b3e0     0x1b4c fs/built-in.o
-                                       0x5c6d (size before relaxing)
- .debug_str     0x000000000000cf2c      0x81b lib/built-in.o
-                                       0x5b62 (size before relaxing)
+.debug_str      0x0000000000000000     0xd755
+ .debug_str     0x0000000000000000     0x3689 arch/arm/cpu/armv7/built-in.o
+                                       0x9331 (size before relaxing)
+ .debug_str     0x0000000000003689      0x3b2 arch/arm/lib/built-in.o
+                                       0x2630 (size before relaxing)
+ .debug_str     0x0000000000003a3b      0xdf1 board/ti/am335x/built-in.o
+                                       0x1eed (size before relaxing)
+ .debug_str     0x000000000000482c      0x1a7 board/ti/common/built-in.o
+                                        0x68f (size before relaxing)
+ .debug_str     0x00000000000049d3      0x7b1 common/spl/built-in.o
+                                       0x338b (size before relaxing)
+ .debug_str     0x0000000000005184       0x55 common/init/built-in.o
+                                        0x61e (size before relaxing)
+ .debug_str     0x00000000000051d9     0x2638 common/built-in.o
+                                       0x958b (size before relaxing)
+ .debug_str     0x0000000000007811      0x15f cmd/built-in.o
+                                       0x195c (size before relaxing)
+ .debug_str     0x0000000000007970      0xb70 disk/built-in.o
+                                       0x294f (size before relaxing)
+ .debug_str     0x00000000000084e0     0x2f0e drivers/built-in.o
+                                      0x10592 (size before relaxing)
+ .debug_str     0x000000000000b3ee     0x1b4c fs/built-in.o
+                                       0x5ccf (size before relaxing)
+ .debug_str     0x000000000000cf3a      0x81b lib/built-in.o
+                                       0x5c5e (size before relaxing)
 
 .debug_loc      0x0000000000000000    0x330d6
  .debug_loc     0x0000000000000000     0x2630 arch/arm/cpu/armv7/built-in.o

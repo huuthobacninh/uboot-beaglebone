@@ -1,4 +1,4 @@
-cmd_lib/hashtable.o := /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,lib/.hashtable.o.d  -nostdinc -isystem /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(hashtable)"  -D"KBUILD_MODNAME=KBUILD_STR(hashtable)" -c -o lib/hashtable.o lib/hashtable.c
+cmd_lib/hashtable.o := /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,lib/.hashtable.o.d  -nostdinc -isystem /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(hashtable)"  -D"KBUILD_MODNAME=KBUILD_STR(hashtable)" -c -o lib/hashtable.o lib/hashtable.c
 
 source_lib/hashtable.o := lib/hashtable.c
 
@@ -23,7 +23,7 @@ deps_lib/hashtable.o := \
     $(wildcard include/config/arm64.h) \
     $(wildcard include/config/phys/64bit.h) \
     $(wildcard include/config/dma/addr/t/64bit.h) \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
   include/common.h \
     $(wildcard include/config/pci.h) \
     $(wildcard include/config/4xx.h) \
@@ -459,7 +459,7 @@ deps_lib/hashtable.o := \
   arch/arm/include/asm/ptrace.h \
   arch/arm/include/asm/proc-armv/ptrace.h \
     $(wildcard include/config/arm/thumb.h) \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdarg.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdarg.h \
   include/linux/kernel.h \
   include/part.h \
     $(wildcard include/config/partition/type/guid.h) \
@@ -504,7 +504,7 @@ deps_lib/hashtable.o := \
     $(wildcard include/config/sys/boot/get/kbd.h) \
     $(wildcard include/config/fit/best/match.h) \
   include/compiler.h \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stddef.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stddef.h \
   arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/byteorder/swab.h \

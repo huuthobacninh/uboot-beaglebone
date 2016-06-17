@@ -1,1 +1,1 @@
-cmd_drivers/dfu/built-in.o :=  /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-ld.bfd     -r -o drivers/dfu/built-in.o drivers/dfu/dfu.o drivers/dfu/dfu_mmc.o drivers/dfu/dfu_ram.o drivers/dfu/dfu_tftp.o 
+cmd_drivers/dfu/built-in.o :=  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/arm-eabi-ld.bfd     -r -o drivers/dfu/built-in.o drivers/dfu/dfu.o drivers/dfu/dfu_mmc.o drivers/dfu/dfu_ram.o drivers/dfu/dfu_tftp.o 

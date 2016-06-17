@@ -16,11 +16,11 @@
 @ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 @ options passed:  -nostdinc -I include -I ./arch/arm/include
 @ -imultilib thumb/thumb2
-@ -iprefix /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/
+@ -iprefix /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/
 @ -D__USES_INITFINI__ -D __KERNEL__ -D __UBOOT__ -D __ARM__ -D DO_DEPS_ONLY
 @ -D KBUILD_STR(s)=#s -D KBUILD_BASENAME=KBUILD_STR(asm_offsets)
 @ -D KBUILD_MODNAME=KBUILD_STR(asm_offsets)
-@ -isystem /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include
+@ -isystem /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include
 @ -include ./include/linux/kconfig.h -MD lib/.asm-offsets.s.d
 @ lib/asm-offsets.c -mthumb -mthumb-interwork -mabi=aapcs-linux
 @ -mword-relocations -mno-unaligned-access -mfloat-abi=soft -march=armv7-a
@@ -852,8 +852,9 @@ main:
 	.ascii	"enetaddr\000"
 .LASF41:
 	.ascii	"iobase\000"
-.LASF36:
-	.ascii	"bd_t\000"
+.LASF59:
+	.ascii	"/media/thonh/Externaldata/source/beaglebone_black/u"
+	.ascii	"-boot/u-boot-2016.05\000"
 .LASF0:
 	.ascii	"unsigned char\000"
 .LASF19:
@@ -898,6 +899,8 @@ main:
 	.ascii	"char\000"
 .LASF18:
 	.ascii	"bi_memsize\000"
+.LASF36:
+	.ascii	"bd_t\000"
 .LASF32:
 	.ascii	"bi_busfreq\000"
 .LASF8:
@@ -912,9 +915,6 @@ main:
 	.ascii	"NETLOOP_RESTART\000"
 .LASF49:
 	.ascii	"index\000"
-.LASF59:
-	.ascii	"/home/thonh/source/beaglebone_black/u-boot/u-boot-2"
-	.ascii	"016.05\000"
 .LASF37:
 	.ascii	"bd_info\000"
 .LASF5:

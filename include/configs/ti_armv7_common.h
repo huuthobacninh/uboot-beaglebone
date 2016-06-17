@@ -46,6 +46,7 @@
  * bootm_size and we only run on platforms with 256MB or more of memory.
  */
 #define DEFAULT_LINUX_BOOT_ENV \
+	"bootdelay=4\0" \
 	"loadaddr=0x82000000\0" \
 	"kernel_addr_r=0x82000000\0" \
 	"fdtaddr=0x88000000\0" \

@@ -14,6 +14,8 @@
 #include <menu.h>
 #include <post.h>
 #include <u-boot/sha256.h>
+#include <asm/arch/gpio.h>
+#include <asm/gpio.h>
 
 DECLARE_GLOBAL_DATA_PTR;
 
@@ -223,6 +225,11 @@ static int abortboot_normal(int bootdelay)
 	int abort = 0;
 	unsigned long ts;
 
+/************ ThoNH ************/
+	gpio_request(53, "gpio1_21");
+	gpio_direction_output(53, 0);
+/********************************/
+
 #ifdef CONFIG_MENUPROMPT
 	printf(CONFIG_MENUPROMPT);
 #else
@@ -261,7 +268,6 @@ static int abortboot_normal(int bootdelay)
 			}
 			udelay(10000);
 		} while (!abort && get_timer(ts) < 1000);
-
 		printf("\b\b\b%2d ", bootdelay);
 	}
 
@@ -271,7 +277,7 @@ static int abortboot_normal(int bootdelay)
 	if (abort)
 		gd->flags &= ~GD_FLG_SILENT;
 #endif
-
+	gpio_set_value(53, abort? true: false);
 	return abort;
 }
 # endif	/* CONFIG_AUTOBOOT_KEYED */

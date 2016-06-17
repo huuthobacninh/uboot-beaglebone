@@ -1,4 +1,4 @@
-cmd_arch/arm/cpu/armv7/am33xx/mux.o := /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,arch/arm/cpu/armv7/am33xx/.mux.o.d  -nostdinc -isystem /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(mux)"  -D"KBUILD_MODNAME=KBUILD_STR(mux)" -c -o arch/arm/cpu/armv7/am33xx/mux.o arch/arm/cpu/armv7/am33xx/mux.c
+cmd_arch/arm/cpu/armv7/am33xx/mux.o := /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,arch/arm/cpu/armv7/am33xx/.mux.o.d  -nostdinc -isystem /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(mux)"  -D"KBUILD_MODNAME=KBUILD_STR(mux)" -c -o arch/arm/cpu/armv7/am33xx/mux.o arch/arm/cpu/armv7/am33xx/mux.c
 
 source_arch/arm/cpu/armv7/am33xx/mux.o := arch/arm/cpu/armv7/am33xx/mux.c
 
@@ -433,7 +433,7 @@ deps_arch/arm/cpu/armv7/am33xx/mux.o := \
   include/linux/posix_types.h \
   include/linux/stddef.h \
   arch/arm/include/asm/posix_types.h \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
   arch/arm/include/asm/bitops.h \
   arch/arm/include/asm/proc-armv/system.h \
     $(wildcard include/config/cpu/sa1100.h) \
@@ -451,7 +451,7 @@ deps_arch/arm/cpu/armv7/am33xx/mux.o := \
   arch/arm/include/asm/ptrace.h \
   arch/arm/include/asm/proc-armv/ptrace.h \
     $(wildcard include/config/arm/thumb.h) \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdarg.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdarg.h \
   include/linux/kernel.h \
   include/part.h \
     $(wildcard include/config/partition/type/guid.h) \
@@ -499,7 +499,7 @@ deps_arch/arm/cpu/armv7/am33xx/mux.o := \
     $(wildcard include/config/sys/boot/get/kbd.h) \
     $(wildcard include/config/fit/best/match.h) \
   include/compiler.h \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stddef.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stddef.h \
   arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/byteorder/swab.h \

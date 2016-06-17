@@ -1,1 +1,1 @@
-cmd_drivers/mtd/spi/built-in.o :=  /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-ld.bfd     -r -o drivers/mtd/spi/built-in.o drivers/mtd/spi/sf_probe.o drivers/mtd/spi/spi_flash.o drivers/mtd/spi/sf_params.o drivers/mtd/spi/sf.o 
+cmd_drivers/mtd/spi/built-in.o :=  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/arm-eabi-ld.bfd     -r -o drivers/mtd/spi/built-in.o drivers/mtd/spi/sf_probe.o drivers/mtd/spi/spi_flash.o drivers/mtd/spi/sf_params.o drivers/mtd/spi/sf.o 

@@ -1,4 +1,4 @@
-cmd_spl/common/spl/spl_ext.o := /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,spl/common/spl/.spl_ext.o.d  -nostdinc -isystem /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -DCONFIG_SPL_BUILD -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -ffunction-sections -fdata-sections -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(spl_ext)"  -D"KBUILD_MODNAME=KBUILD_STR(spl_ext)" -c -o spl/common/spl/spl_ext.o common/spl/spl_ext.c
+cmd_spl/common/spl/spl_ext.o := /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/arm-eabi-gcc -Wp,-MD,spl/common/spl/.spl_ext.o.d  -nostdinc -isystem /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -DCONFIG_SPL_BUILD -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -ffunction-sections -fdata-sections -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(spl_ext)"  -D"KBUILD_MODNAME=KBUILD_STR(spl_ext)" -c -o spl/common/spl/spl_ext.o common/spl/spl_ext.c
 
 source_spl/common/spl/spl_ext.o := common/spl/spl_ext.c
 
@@ -433,7 +433,7 @@ deps_spl/common/spl/spl_ext.o := \
   include/linux/posix_types.h \
   include/linux/stddef.h \
   arch/arm/include/asm/posix_types.h \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdbool.h \
   arch/arm/include/asm/bitops.h \
   arch/arm/include/asm/proc-armv/system.h \
     $(wildcard include/config/cpu/sa1100.h) \
@@ -451,7 +451,7 @@ deps_spl/common/spl/spl_ext.o := \
   arch/arm/include/asm/ptrace.h \
   arch/arm/include/asm/proc-armv/ptrace.h \
     $(wildcard include/config/arm/thumb.h) \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdarg.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stdarg.h \
   include/linux/kernel.h \
   include/part.h \
     $(wildcard include/config/partition/type/guid.h) \
@@ -500,7 +500,7 @@ deps_spl/common/spl/spl_ext.o := \
     $(wildcard include/config/fit/best/match.h) \
     $(wildcard include/config/fit.h) \
   include/compiler.h \
-  /home/thonh/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stddef.h \
+  /media/thonh/Externaldata/source/kernel/arm-eabi-4.8/lib/gcc/arm-eabi/4.8/include/stddef.h \
   arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/byteorder/swab.h \
