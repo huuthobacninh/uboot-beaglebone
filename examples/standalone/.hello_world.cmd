@@ -1,1 +1,0 @@
-cmd_examples/standalone/hello_world := /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-ld.bfd   -g -Ttext 0x80300000 -o examples/standalone/hello_world -e hello_world examples/standalone/hello_world.o examples/standalone/libstubs.o -L /home/thonh/source/kernel/arm-eabi-4.8/bin/../lib/gcc/arm-eabi/4.8/thumb/thumb2 -lgcc

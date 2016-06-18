@@ -1,1 +1,0 @@
-cmd_lib/efi_loader/built-in.o :=  /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-ld.bfd     -r -o lib/efi_loader/built-in.o lib/efi_loader/efi_image_loader.o lib/efi_loader/efi_boottime.o lib/efi_loader/efi_runtime.o lib/efi_loader/efi_console.o lib/efi_loader/efi_memory.o lib/efi_loader/efi_disk.o 

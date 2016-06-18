@@ -1,8 +1,0 @@
-board.c:166:5:spl_start_uboot	8	static
-board.c:191:6:am33xx_spl_board_init	24	static
-board.c:333:27:get_dpll_ddr_params	8	static
-board.c:350:6:set_uart_mux_conf	0	static
-board.c:367:6:set_mux_conf_regs	8	static
-board.c:407:6:sdram_init	24	static
-board.c:441:5:board_init	8	static
-board.c:455:5:board_late_init	8	static

@@ -1,4 +1,0 @@
-spl_mmc.c:52:12:mmc_load_image_raw_sector	24	static
-spl_mmc.c:94:5:spl_mmc_get_device_index	8	static
-spl_mmc.c:218:5:spl_mmc_do_fs_boot	8	static
-spl_mmc.c:266:5:spl_mmc_load_image	16	static

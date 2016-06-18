@@ -1,1 +1,0 @@
-cmd_spl/drivers/serial/built-in.o :=  /home/thonh/source/kernel/arm-eabi-4.8/bin/arm-eabi-ld.bfd     -r -o spl/drivers/serial/built-in.o spl/drivers/serial/serial.o spl/drivers/serial/serial_ns16550.o spl/drivers/serial/ns16550.o 

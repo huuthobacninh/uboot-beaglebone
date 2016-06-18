@@ -1,5 +1,0 @@
-eeprom.c:62:12:eeprom_write_enable	0	static
-eeprom.c:67:6:eeprom_init	0	static
-eeprom.c:182:5:eeprom_read	32	static
-eeprom.c:192:5:eeprom_write	40	static
-eeprom.c:210:12:do_eeprom	32	static
