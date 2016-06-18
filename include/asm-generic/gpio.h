@@ -99,6 +99,8 @@ void thonh_setval_gpio(unsigned gpio, int value);
  */
 int gpio_set_value(unsigned gpio, int value);
 
+
+
 /* State of a GPIO, as reported by get_function() */
 enum gpio_func_t {
 	GPIOF_INPUT = 0,
