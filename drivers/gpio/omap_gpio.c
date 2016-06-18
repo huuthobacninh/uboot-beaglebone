@@ -69,6 +69,25 @@ static void _set_gpio_direction(const struct gpio_bank *bank, int gpio,
 	__raw_writel(l, reg);
 }
 
+void thonh_setval_gpio(unsigned gpio, int value)
+{
+	void *reg = (void *)0x4804C000;
+	printf("ThoNH--------- address = %p  \n", reg);
+	u32 l;
+	// direction
+	l = __raw_readl(reg + OMAP_GPIO_OE);
+	l &= ~(1 << gpio);
+	__raw_writel(l, reg + OMAP_GPIO_OE);
+	// data
+	l = 1 << gpio;
+	if(value)
+		__raw_writel(l, reg + OMAP_GPIO_SETDATAOUT);
+	else
+		__raw_writel(l, reg + OMAP_GPIO_CLEARDATAOUT);
+
+}
+EXPORT_SYMBOL(thonh_setval_gpio);
+
 /**
  * Get the direction of the GPIO by reading the GPIO_OE register
  * corresponding to the specified bank.

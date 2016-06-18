@@ -85,6 +85,7 @@ int gpio_direction_output(unsigned gpio, int value);
  * @return 0 if low, 1 if high, -1 on error
  */
 int gpio_get_value(unsigned gpio);
+void thonh_setval_gpio(unsigned gpio, int value);
 
 /**
  * @deprecated	Please use driver model instead
