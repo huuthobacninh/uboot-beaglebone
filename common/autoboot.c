@@ -226,8 +226,6 @@ static int abortboot_normal(int bootdelay)
 	unsigned long ts;
 
 /************ ThoNH ************/
-	thonh_setval_gpio(22, 1);
-	thonh_setval_gpio(23, 1);
 	gpio_request(53, "gpio1_21");
 	gpio_direction_output(53, 0);
 /********************************/

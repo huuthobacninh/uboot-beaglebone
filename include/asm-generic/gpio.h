@@ -86,8 +86,6 @@ int gpio_direction_output(unsigned gpio, int value);
  */
 int gpio_get_value(unsigned gpio);
 
-void thonh_setval_gpio(unsigned gpio, int value);
-
 /**
  * @deprecated	Please use driver model instead
  * Set an output GPIO's value. The GPIO must already be an output or
